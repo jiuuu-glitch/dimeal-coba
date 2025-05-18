@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Konfirmasi Pembayaran</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">Payment</header>
+  <main class="container">
+    <h2>Diet Tinggi Kalori & Protein</h2>
+    <div class="payment-item">
+      <p><strong>Ayam Bakar TKTN</strong></p>
+      <p>Kalori 450 kkal</p>
+      <p>Protein 40g</p>
+      <p><strong>Rp 45.000</strong></p>
+    </div>
+    <div class="summary">
+      <p>Total Kalori: <strong>450 kkal</strong></p>
+      <p>Total Protein: <strong>40g</strong></p>
+      <p>Total: <strong>Rp 45.000</strong></p>
+    </div>
+    <button class="pay-btn">PROCEED TO PAY</button>
+    <div class="payment-method">
+      <label><input type="radio" name="payment" /> E-Wallet</label><br/>
+      <label><input type="radio" name="payment" checked /> Credit/Debit Card</label><br/>
+      <label><input type="radio" name="payment" /> Bank Transfer</label>
+    </div>
+  </main>
+</body>
+</html>
