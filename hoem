@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DIMEAL - Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">DIMEAL</header>
+  <main class="container">
+    <h2>Diet Catering Menu</h2>
+    <div class="menu-item">
+      <img src="ayam.jpg" alt="Ayam Bakar TKTN" />
+      <div class="info">
+        <h3>Ayam Bakar TKTN</h3>
+        <p>Kalori 450 kkal | Protein 40g</p>
+        <strong>Rp 45.000</strong>
+      </div>
+      <button class="add-btn">+</button>
+    </div>
+    <div class="menu-item">
+      <img src="nasi.jpg" alt="Nasi Merah + Sayur Kukus" />
+      <div class="info">
+        <h3>Nasi Merah + Sayur Kukus</h3>
+        <p>Kalori 300 kkal | Protein 10g</p>
+        <strong>Rp 25.000</strong>
+      </div>
+      <button class="add-btn">+</button>
+    </div>
+    <div class="menu-item">
+      <img src="salad.jpg" alt="Salad Tuna Diet" />
+      <div class="info">
+        <h3>Salad Tuna Diet</h3>
+        <p>Kalori 350 kkal | Protein 30g</p>
+        <strong>Rp 40.000</strong>
+      </div>
+      <button class="add-btn">+</button>
+    </div>
+  </main>
+</body>
+</html>
